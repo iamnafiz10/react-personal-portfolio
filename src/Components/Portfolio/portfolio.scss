@@ -1,0 +1,18 @@
+#portfolio-section {
+  .scrollable {
+    background-size: cover !important;
+    height: 325px;
+    cursor: pointer;
+    transition: background-position 1.5s ease-out 0.5s;
+    overflow: hidden;
+  }
+
+  .scroll_top {
+    background-position: top center;
+  }
+
+  .scroll_top:hover {
+    background-position: bottom center;
+    transition: background-position 2s linear 0s;
+  }
+}

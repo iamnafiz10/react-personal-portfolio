@@ -1,0 +1,26 @@
+#about-section {
+  .image {
+    //width: 400px;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+/* For devices 1199px and larger: */
+@media only screen and (max-width: 1199px) {
+  #about-section {
+    .image-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .image {
+      width: 400px;
+      height: 400px;
+      border-radius: 160% 160% 160% 160%;
+      object-fit: cover;
+    }
+  }
+}
