@@ -1,6 +1,7 @@
 import React from 'react';
 import './hero.scss';
 import {Button} from "@material-tailwind/react";
+import {Link} from "react-scroll";
 
 function Hero(props) {
     return (
@@ -27,10 +28,12 @@ function Hero(props) {
                                     </p>
                                 </div>
                                 <div className="contact-buttons pt-10">
-                                    <Button
-                                        className="py-3 px-10 font-jost capitalize font-poppins font-normal text-[16px] rounded-bl-sm rounded-br-2xl rounded-tr-sm rounded-tl-2xl">
-                                        See My Work
-                                    </Button>
+                                    <Link to='portfolio-section' smooth={true} duration={500} spy={true} offset={-50}>
+                                        <Button
+                                            className="py-3 px-10 capitalize font-poppins font-normal text-[16px] rounded-bl-sm rounded-br-2xl rounded-tr-sm rounded-tl-2xl">
+                                            See My Work
+                                        </Button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

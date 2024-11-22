@@ -32,7 +32,7 @@ function Header(props) {
                             </span>
                         </div>
                         {/* Mobile Menu Icon End */}
-                        <ul className={`lg:flex lg:items-center absolute lg:static bg-white lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ${open ? 'top-20 opacity-100' : 'top-[-490px]'} lg:opacity-100 opacity-0`}>
+                        <ul className={`lg:flex lg:items-center absolute lg:static lg:z-auto z-[-1] border-t-2 border-secondary lg:border-none left-0 w-[250px] h-screen lg:h-auto lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ${open ? 'top-[76px] opacity-100 bg-white' : 'top-[76px] left-[-490px]'} lg:opacity-100 opacity-0`}>
                             <li className="lg:ml-8 lg:my-0 my-7 text-[17px] font-[500]">
                                 <Link to='hero-section' smooth={true} duration={500} spy={true} offset={-160}
                                       className="text-gray-800 hover:text-primary cursor-pointer">
@@ -75,7 +75,6 @@ function Header(props) {
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </nav>
         </>

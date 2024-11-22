@@ -13,9 +13,9 @@ function Portfolio(props) {
             <section id="portfolio-section">
                 <div className="container py-40">
                     <h1 className="text-4xl font-semibold text-gray-800 pb-3">
-                        Portfolio
+                        Portfolios
                     </h1>
-                    <p className="text-gray-700">Each project is a unique piece of development 🧩</p>
+                    <p className="text-gray-700">Each project is a unique piece of Design 🧩</p>
 
                     <div className="grid lg:grid-cols-2 gap-24 items-center shadow-lg p-8">
                         <div className="scroll_top scrollable" style={{backgroundImage: `url(${Pone})`}}>
@@ -25,19 +25,19 @@ function Portfolio(props) {
                         <div className="portfolio-details">
                             <h3 className="text-lg font-semibold text-gray-800">RafCart Ecommerce</h3>
                             <p className="mt-4 text-gray-700">
-                                A car rental website is an online
-                                platform that allows users to rent cars for personal or business use. The website
-                                provides an interface for searching, comparing, and reserving cars.
+                                The website reflects my focus on clean design, intuitive navigation, and attention to
+                                detail, creating a user-friendly experience.
                             </p>
 
-                            <div className="bottom mt-4 font-semibold text-lg block md:flex items-center justify-between gap-6">
+                            <div
+                                className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
-                                    <p>React</p>
+                                    <p>React JS</p>
                                     <p>Tailwind CSS</p>
                                 </div>
 
                                 <div className="links mt-4 font-semibold">
-                                    <a target="_blank" href="https://roshan-react-rafcart-ecommerce.netlify.app"
+                                    <a target="_blank" href="https://react-rafcart-website.vercel.app"
                                        className="flex items-center gap-2 text-secondary" rel="noreferrer">
                                         Live Demo
                                         <BsArrowUpRightSquareFill/>
@@ -51,21 +51,21 @@ function Portfolio(props) {
                     <div className="grid lg:grid-cols-2 gap-24 items-center shadow-lg mt-10 p-8">
 
                         <div className="portfolio-details">
-                            <h3 className="text-lg font-semibold text-gray-800">Movie Ecommerce</h3>
+                            <h3 className="text-lg font-semibold text-gray-800">Movix App</h3>
                             <p className="mt-4 text-gray-700">
-                                A car rental website is an online
-                                platform that allows users to rent cars for personal or business use. The website
-                                provides an interface for searching, comparing, and reserving cars.
+                                The website reflects my focus on clean design, intuitive navigation, and attention to
+                                detail, creating a user-friendly experience.
                             </p>
 
-                            <div className="bottom mt-4 font-semibold text-lg block md:flex items-center justify-between gap-6">
+                            <div
+                                className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
-                                    <p>React</p>
-                                    <p>Tailwind CSS</p>
+                                    <p>Next JS</p>
+                                    <p>CSS/SASS</p>
                                 </div>
 
                                 <div className="links mt-4 font-semibold">
-                                    <a target="_blank" href="https://roshan-react-movix-application.netlify.app"
+                                    <a target="_blank" href="https://react-movix-website.vercel.app"
                                        className="flex items-center gap-2 text-secondary" rel="noreferrer">
                                         Live Demo
                                         <BsArrowUpRightSquareFill/>
@@ -86,21 +86,21 @@ function Portfolio(props) {
                         </div>
 
                         <div className="portfolio-details">
-                            <h3 className="text-lg font-semibold text-gray-800">Zaika Ecommerce</h3>
+                            <h3 className="text-lg font-semibold text-gray-800">FM Website</h3>
                             <p className="mt-4 text-gray-700">
-                                A car rental website is an online
-                                platform that allows users to rent cars for personal or business use. The website
-                                provides an interface for searching, comparing, and reserving cars.
+                                The website reflects my focus on clean design, intuitive navigation, and attention to
+                                detail, creating a user-friendly experience.
                             </p>
 
-                            <div className="bottom mt-4 font-semibold text-lg block md:flex items-center justify-between gap-6">
+                            <div
+                                className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
-                                    <p>React</p>
-                                    <p>Bootstrap</p>
+                                    <p>HTML - CSS</p>
+                                    <p>Javascript</p>
                                 </div>
 
                                 <div className="links mt-4 font-semibold">
-                                    <a target="_blank" href="https://roshan-react-zaika-ecommerce.netlify.app"
+                                    <a target="_blank" href="https://core-html-css-fm-website.vercel.app"
                                        className="flex items-center gap-2 text-secondary" rel="noreferrer">
                                         Live Demo
                                         <BsArrowUpRightSquareFill/>
@@ -114,21 +114,21 @@ function Portfolio(props) {
                     <div className="grid lg:grid-cols-2 gap-24 items-center shadow-lg mt-10 p-8">
 
                         <div className="portfolio-details">
-                            <h3 className="text-lg font-semibold text-gray-800">Shoes Ecommerce</h3>
+                            <h3 className="text-lg font-semibold text-gray-800">Game Website</h3>
                             <p className="mt-4 text-gray-700">
-                                A car rental website is an online
-                                platform that allows users to rent cars for personal or business use. The website
-                                provides an interface for searching, comparing, and reserving cars.
+                                The website reflects my focus on clean design, intuitive navigation, and attention to
+                                detail, creating a user-friendly experience.
                             </p>
 
-                            <div className="bottom mt-4 font-semibold text-lg block md:flex items-center justify-between gap-6">
+                            <div
+                                className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
-                                    <p>React</p>
-                                    <p>Bootstrap</p>
+                                    <p>HTML - CSS</p>
+                                    <p>Javascript</p>
                                 </div>
 
                                 <div className="links mt-4 font-semibold">
-                                    <a target="_blank" href="https://roshan-react-ecom-ecommerce.netlify.app"
+                                    <a target="_blank" href="https://core-html-css-game-website.vercel.app"
                                        className="flex items-center gap-2 text-secondary" rel="noreferrer">
                                         Live Demo
                                         <BsArrowUpRightSquareFill/>
@@ -151,19 +151,19 @@ function Portfolio(props) {
                         <div className="portfolio-details">
                             <h3 className="text-lg font-semibold text-gray-800">Design Valley</h3>
                             <p className="mt-4 text-gray-700">
-                                A car rental website is an online
-                                platform that allows users to rent cars for personal or business use. The website
-                                provides an interface for searching, comparing, and reserving cars.
+                                The website reflects my focus on clean design, intuitive navigation, and attention to
+                                detail, creating a user-friendly experience.
                             </p>
 
-                            <div className="bottom mt-4 font-semibold text-lg block md:flex items-center justify-between gap-6">
+                            <div
+                                className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
-                                    <p>React</p>
+                                    <p>React JS</p>
                                     <p>Bootstrap</p>
                                 </div>
 
                                 <div className="links mt-4 font-semibold">
-                                    <a target="_blank" href="https://roshan-react-design-valley.netlify.app"
+                                    <a target="_blank" href="https://react-design-valley.vercel.app"
                                        className="flex items-center gap-2 text-secondary" rel="noreferrer">
                                         Live Demo
                                         <BsArrowUpRightSquareFill/>

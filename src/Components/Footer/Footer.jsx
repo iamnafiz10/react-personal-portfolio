@@ -11,23 +11,23 @@ function Footer(props) {
                     <footer
                         className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
                         <Typography color="blue-gray" className="font-poppins font-[400]">
-                            &copy; Copyright 2023. All rights are reserved
+                            &copy; Copyright 2025. All rights are reserved.
                         </Typography>
                         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                             <li>
-                                <a target="_blank" href="https://www.facebook.com/iamroshansaihamnafi" className="text-2xl hover:text-primary" rel="noreferrer">
+                                <a target="_blank" href="https://www.facebook.com/iamnafiz10" className="text-2xl hover:text-primary" rel="noreferrer">
                                     <AiFillFacebook/>
                                 </a>
                             </li>
 
                             <li>
-                                <a target="_blank" href="https://www.linkedin.com/in/iamroshansaihamnafiz" className="text-2xl hover:text-primary" rel="noreferrer">
+                                <a target="_blank" href="https://www.linkedin.com/in/iamnafiz10/" className="text-2xl hover:text-primary" rel="noreferrer">
                                     <AiFillLinkedin/>
                                 </a>
                             </li>
 
                             <li>
-                                <a target="_blank" href="https://www.instagram.com/iamroshansaihamnafiz" className="text-2xl hover:text-primary" rel="noreferrer">
+                                <a target="_blank" href="https://www.instagram.com/iamnafiz10/" className="text-2xl hover:text-primary" rel="noreferrer">
                                     <AiFillInstagram/>
                                 </a>
                             </li>

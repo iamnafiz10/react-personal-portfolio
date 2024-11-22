@@ -1,16 +1,28 @@
 import React from 'react';
 import './about.scss';
-import Laptop from "../../assets/images/laptop.png";
+import AboutMe from "../../assets/images/about-me.png";
+import resume from "../../assets/cv/resume.pdf";
 import {Button} from "@material-tailwind/react";
 
 function About(props) {
+    const handleDownload = () => {
+        const fileUrl = resume;  // Use the imported resume path
+
+        // Create an anchor element and trigger the download
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = 'Nafiz-Resume.pdf'; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <>
             <section id="about-section" className="mt-20">
                 <div className="container py-20">
                     <div className="grid grid-cols-12 gap-0 xl:gap-20">
                         <div className="col-span-12 xl:col-span-4 image-wrap">
-                            <div className="image" style={{backgroundImage: `url(${Laptop})`}}>
+                            <div className="image" style={{backgroundImage: `url(${AboutMe})`}}>
                                 {/* Here Image Come From SCSS File */}
                             </div>
                         </div>
@@ -75,8 +87,11 @@ function About(props) {
                                 </div>
                             </div>
 
-                            <Button size="lg"
-                                    className="capitalize mt-6 font-semibold bg-primary font-poppins uppercase  flex items-center gap-3 rounded-bl-xl rounded-br-sm rounded-tr-xl rounded-tl-sm">
+                            <Button
+                                size="lg"
+                                className="capitalize mt-6 font-semibold bg-primary font-poppins flex items-center gap-3 rounded-bl-xl rounded-br-sm rounded-tr-xl rounded-tl-sm"
+                                onClick={handleDownload}
+                            >
                                 Download CV
                             </Button>
                         </div>
