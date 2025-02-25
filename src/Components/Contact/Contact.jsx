@@ -31,7 +31,7 @@ function Contact(props) {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
-            .sendForm('service_8i7i33x', 'template_ui9y1ig', form.current, 'VASvLpxfuMTe5zcZe')
+            .sendForm('service_0g11fge', 'template_w2judkj', form.current, '19zXajHHmMqBzJgdI')
             .then(() => {
                 console.log('SUCCESS!');
                 notify();
@@ -144,7 +144,6 @@ function Contact(props) {
                                         </p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
