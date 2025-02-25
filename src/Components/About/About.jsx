@@ -47,13 +47,13 @@ function About(props) {
                                 <div className="col-span-12 lg:col-span-6">
                                     <ul className="space-y-6">
                                         <li>
-                                            <h4 className="font-bold text-black uppercase">Name</h4>
+                                            <h4 className="font-bold text-black uppercase">Full Name</h4>
                                             <p className="text-gray-700 text-md">Roshan Saiham Nafiz</p>
                                         </li>
 
                                         <li>
                                             <h4 className="font-bold text-black uppercase">Email</h4>
-                                            <p className="text-gray-700 text-md">roshansaihamnafiz@gmail.com</p>
+                                            <p className="text-gray-700 text-md">iamnafiz10@gmail.com</p>
                                         </li>
 
                                         <li>
@@ -74,7 +74,7 @@ function About(props) {
 
                                         <li>
                                             <h4 className="font-bold text-black uppercase">Phone</h4>
-                                            <p className="text-gray-700 text-md">+880 01321764096</p>
+                                            <p className="text-gray-700 text-md">(+880) 01321764096</p>
                                         </li>
 
                                         <li>

@@ -118,7 +118,7 @@ function Contact(props) {
                                     </div>
                                     <div
                                         className="bg-white text-gray-700 col-start-4 col-end-12 my-4 w-full">
-                                        <h3 className="font-semibold text-lg mb-1">Call Me</h3>
+                                        <h3 className="font-semibold text-lg mb-1">WhatsApp</h3>
                                         <p className="leading-tight text-justify w-full">
                                             (+880) 01321764096
                                         </p>
@@ -140,7 +140,7 @@ function Contact(props) {
                                         className="bg-white text-gray-700 col-start-4 col-end-12 my-4 w-full">
                                         <h3 className="font-semibold text-lg mb-1">Email Me</h3>
                                         <p className="leading-tight text-justify w-full">
-                                            roshansaihamnafiz@gmail.com
+                                            iamnafiz10@gmail.com
                                         </p>
                                     </div>
                                 </div>

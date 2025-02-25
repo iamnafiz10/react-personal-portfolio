@@ -6,6 +6,7 @@ import PTwo from '../../assets/images/p2.png';
 import PThree from '../../assets/images/p3.png';
 import PFore from '../../assets/images/p4.png';
 import PFive from '../../assets/images/p5.png';
+import PSix from '../../assets/images/p6.png';
 
 function Portfolio(props) {
     return (
@@ -33,6 +34,7 @@ function Portfolio(props) {
                                 className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
                                     <p>React JS</p>
+                                    <p>-</p>
                                     <p>Tailwind CSS</p>
                                 </div>
 
@@ -61,6 +63,7 @@ function Portfolio(props) {
                                 className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
                                     <p>Next JS</p>
+                                    <p>-</p>
                                     <p>CSS/SASS</p>
                                 </div>
 
@@ -96,6 +99,7 @@ function Portfolio(props) {
                                 className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
                                     <p>HTML - CSS</p>
+                                    <p>-</p>
                                     <p>Javascript</p>
                                 </div>
 
@@ -124,6 +128,7 @@ function Portfolio(props) {
                                 className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
                                     <p>HTML - CSS</p>
+                                    <p>-</p>
                                     <p>Javascript</p>
                                 </div>
 
@@ -159,11 +164,44 @@ function Portfolio(props) {
                                 className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
                                 <div className="stack flex gap-4">
                                     <p>React JS</p>
+                                    <p>-</p>
                                     <p>Bootstrap</p>
                                 </div>
 
                                 <div className="links mt-4 font-semibold">
                                     <a target="_blank" href="https://react-design-valley.vercel.app"
+                                       className="flex items-center gap-2 text-secondary" rel="noreferrer">
+                                        Live Demo
+                                        <BsArrowUpRightSquareFill/>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div className="grid lg:grid-cols-2 gap-24 items-center shadow-lg mt-10 p-8">
+                        <div className="scroll_top scrollable" style={{backgroundImage: `url(${PSix})`}}>
+                            {/* Here Image Came From Scss File */}
+                        </div>
+
+                        <div className="portfolio-details">
+                            <h3 className="text-lg font-semibold text-gray-800">Travel Landing Page</h3>
+                            <p className="mt-4 text-gray-700">
+                                The website reflects my focus on clean design, intuitive navigation, and attention to
+                                detail, creating a user-friendly experience.
+                            </p>
+
+                            <div
+                                className="bottom mt-3 font-semibold text-lg block md:flex items-center justify-between gap-6">
+                                <div className="stack flex gap-4">
+                                    <p>Next JS</p>
+                                    <p>-</p>
+                                    <p>Tailwind CSS</p>
+                                </div>
+
+                                <div className="links mt-4 font-semibold">
+                                    <a target="_blank" href="https://travel-landing-page-psi-one.vercel.app/"
                                        className="flex items-center gap-2 text-secondary" rel="noreferrer">
                                         Live Demo
                                         <BsArrowUpRightSquareFill/>
