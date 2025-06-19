@@ -15,7 +15,7 @@ function Footer(props) {
                         </Typography>
                         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                             <li>
-                                <a target="_blank" href="https://www.facebook.com/iamnafiz10" className="text-2xl hover:text-primary" rel="noreferrer">
+                                <a target="_blank" href="https://www.facebook.com/roshan.saiham.nafiz" className="text-2xl hover:text-primary" rel="noreferrer">
                                     <AiFillFacebook/>
                                 </a>
                             </li>

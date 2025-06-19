@@ -19,11 +19,11 @@ function Hero(props) {
                             <div className="hero-content">
                                 <div className="hero-text space-y-4">
                                     <h1 className="text-4xl md:text-5xl text-blue-gray-900 font-bold leading-[3rem] md:leading-[4rem]">
-                                        Meet <span className="text-2xl text-secondary">A</span> Full-Stack
-                                        Web<br/> Developer 👋
+                                        Meet <span className="text-2xl text-secondary">A</span>
+                                        Web Designer 👋
                                     </h1>
                                     <p className="text-md font-jost md:text-lg text-gray-700 flex items-center">
-                                        Hi, I'm Roshan Nafiz. A passionate Full-Stack Web Developer<br/> based in
+                                        Hi, I'm Roshan Saiham Nafiz. A passionate Web Designer<br/> based in
                                         Rajshahi, Bangladesh. 🙌
                                     </p>
                                 </div>

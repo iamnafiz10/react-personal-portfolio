@@ -31,13 +31,12 @@ function About(props) {
                             <div className="about-details">
                                 <h2 className="text-primary font-semibold text-xl">ABOUT ME</h2>
                                 <h2 className="mt-4 font-bold text-gray-800 text-3xl sm:text-4xl">
-                                    Web Designer And<br/> Developer
+                                    Web Designer
                                 </h2>
                                 <p className="mt-4 font-poppins text-gray-700 text-md leading-8">
-                                    I am a Full-Stack Web developer with React JS,
-                                    Next JS, PHP and Laravel Expert. I Love working with HTML, CSS, Bootstrap,
-                                    Tailwind, JavaScript, JQuery, React JS, Next JS, PHP, Laravel, MySql, SQL, and
-                                    Rest APIS.
+                                    I am a Web designer with React JS,
+                                    Next JS and Tailwind CSS Expert. I Love working with HTML, CSS, Bootstrap,
+                                    Tailwind, React JS, Next JS, Material UI, And React Animations.
                                 </p>
                             </div>
 
@@ -69,7 +68,7 @@ function About(props) {
                                     <ul className="space-y-6">
                                         <li>
                                             <h4 className="font-bold text-black uppercase">AGE</h4>
-                                            <p className="text-gray-700 text-md">19 Years</p>
+                                            <p className="text-gray-700 text-md">20 Years</p>
                                         </li>
 
                                         <li>

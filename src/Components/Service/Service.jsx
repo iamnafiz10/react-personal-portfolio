@@ -11,7 +11,7 @@ function Service(props) {
                             <div
                                 className="card max-w-[100%] md:max-w-[350px] relative bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_5px_30px] border py-32 md:py-44">
                                 <div className="main-text text-center">
-                                    <h1 className="text-9xl text-secondary font-bold">08</h1>
+                                    <h1 className="text-9xl text-secondary font-bold">05</h1>
                                     <p className="mt-6 text-lg text-gray-800">Years of Experience</p>
                                 </div>
 
@@ -27,7 +27,7 @@ function Service(props) {
                             <h1 className="text-4xl font-semibold text-gray-800">My Advantage</h1>
                             <p className="mt-6 text-gray-700">
                                 I will Help you by Creating a website from scratch and fixing any issues and bugs on
-                                your Laravel, React Js or Next Js website.
+                                your React Js or Next Js website.
                                 Also provide complex architectural solutions with smooth and clean User Interfaces.
                             </p>
 
@@ -41,22 +41,22 @@ function Service(props) {
 
                                 <div className="box-two rounded-xl text-center">
                                     <div className="inner rounded-xl p-8 m-1 bg-white">
-                                        <h2 className="text-4xl font-jost font-semibold">88%</h2>
-                                        <p className="mt-3 text-xl font-jost text-green-300">Development</p>
+                                        <h2 className="text-4xl font-jost font-semibold">100%</h2>
+                                        <p className="mt-3 text-xl font-jost text-green-300">Debugging</p>
                                     </div>
                                 </div>
 
                                 <div className="box-three rounded-xl text-center">
                                     <div className="inner rounded-xl p-8 m-1 bg-white">
-                                        <h2 className="text-4xl font-jost font-semibold">85%</h2>
-                                        <p className="mt-3 text-xl font-jost text-red-300">Database</p>
+                                        <h2 className="text-4xl font-jost font-semibold">90%</h2>
+                                        <p className="mt-3 text-xl font-jost text-red-300">Structures</p>
                                     </div>
                                 </div>
 
                                 <div className="box-fore rounded-xl text-center">
                                     <div className="inner rounded-xl p-8 m-1 bg-white">
-                                        <h2 className="text-4xl font-jost font-semibold">95%</h2>
-                                        <p className="mt-3 text-xl font-jost text-yellow-700">E-commerce</p>
+                                        <h2 className="text-4xl font-jost font-semibold">100%</h2>
+                                        <p className="mt-3 text-xl font-jost text-yellow-700">Satisfaction</p>
                                     </div>
                                 </div>
 
@@ -69,7 +69,7 @@ function Service(props) {
 
                                 <div className="box-six rounded-xl text-center">
                                     <div className="inner rounded-xl p-8 m-1 bg-white">
-                                        <h2 className="text-4xl font-jost font-semibold">90%</h2>
+                                        <h2 className="text-4xl font-jost font-semibold">95%</h2>
                                         <p className="mt-3 text-xl font-jost text-purple-300">Algorithm</p>
                                     </div>
                                 </div>
